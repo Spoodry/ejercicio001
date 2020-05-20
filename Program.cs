@@ -11,7 +11,7 @@ namespace Ejercicio001
                 switch(int.Parse(args[0])) {
                     case 0:
                         System.Console.WriteLine("Conexión");
-                        String conexion = "datasource=127.0.0.1;port=3306;username=root;password=jpaf080599urf;database=mvc";
+                        String conexion = "datasource=127.0.0.1;port=3306;username=root;password=mypass;database=mvc";
 
                         String query = "SELECT * FROM alumnos";
 
